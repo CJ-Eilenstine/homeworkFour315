@@ -1,0 +1,28 @@
+.contact {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+
+    input {
+        margin-top: 15px;
+        width: 300px;
+        height: 50px;
+        border: none;
+
+        padding: 5px;
+    }
+
+    input:hover {
+        border: solid 1px green;
+    }
+
+    span {
+        padding: 10px 5px;
+        background-color: green;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+}

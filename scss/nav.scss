@@ -1,0 +1,27 @@
+nav {
+    // height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    height: 80px;
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        color: lightblue;
+        padding: 5px 10px;
+        border: 1px solid forestgreen;
+        cursor: pointer;
+    }
+
+    .login {
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            // color: cadetblue;
+            padding: 5px 10px;
+            border: 1px solid forestgreen;
+        }
+    }
+}

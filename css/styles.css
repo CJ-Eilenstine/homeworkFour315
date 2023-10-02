@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  background-color: darkgray;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 80px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: lightblue;
+  padding: 5px 10px;
+  border: 1px solid forestgreen;
+  cursor: pointer;
+}
+nav .login a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: 1px solid forestgreen;
+}
+
+#modal {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#modal .modal-content-holder {
+  position: relative;
+  min-height: 300px;
+  min-width: 300px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 10px;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#modal .modal-content-holder .close-button {
+  position: absolute;
+  align-self: flex-start;
+  right: 10px;
+  cursor: pointer;
+  padding: 2px 5px;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.contact {
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+.contact input {
+  margin-top: 15px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  padding: 5px;
+}
+.contact input:hover {
+  border: solid 1px green;
+}
+.contact span {
+  padding: 10px 5px;
+  background-color: green;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=styles.css.map */
